@@ -1,0 +1,218 @@
+@import "./font";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "MuseoSans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-y: scroll;
+  height: 100%;
+  scrollbar-width: none; /* Firefox 64 */
+  min-height: -webkit-fill-available;
+}
+body::-webkit-scrollbar {
+  display: none !important;
+}
+html {
+  height: -webkit-fill-available;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.pause_chat {
+  text-align: center;
+  font-family: "GoThicB";
+  margin-top: 50px;
+  font-size: 18px;
+}
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select:focus,
+textarea {
+  font-size: 16px;
+}
+
+.pausechat_destop {
+  display: none !important;
+}
+
+.pausechat_mobile {
+  display: none !important;
+}
+.emoji-picker-react {
+  position: absolute !important;
+  top: -350px;
+  right: 0;
+}
+.swal2-popup {
+  max-width: 85% !important;
+}
+.swal2-title {
+  font-family: "GoThicB" !important;
+  color: #1b3862;
+  font-size: 18px;
+  text-align: left !important;
+}
+.swal2-html-container {
+  color: #1b3862;
+  font-family: "GoThic" !important;
+  font-size: 14px;
+  text-align: left !important;
+  letter-spacing: 1px !important;
+}
+/* Make clicks pass-through */
+#nprogress {
+  pointer-events: none;
+}
+p {
+  font-weight: 100;
+}
+
+#nprogress .bar {
+  background: rgb(26, 150, 117);
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px rgb(26, 150, 117), 0 0 5px rgb(26, 150, 117);
+  opacity: 1;
+
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+  -ms-transform: rotate(3deg) translate(0px, -4px);
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 15px;
+  right: 15px;
+}
+
+#nprogress .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+
+  border: solid 2px transparent;
+  border-top-color: rgb(26, 150, 117);
+  border-left-color: rgb(26, 150, 117);
+  border-radius: 50%;
+
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+  animation: nprogress-spinner 400ms linear infinite;
+}
+
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes nprogress-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pageWrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 100vh;
+  flex-wrap: nowrap;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 140%;
+    left: 50%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    transform: translateX(-50%);
+    font-size: 13px;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+  }
+  &:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.vimeo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
