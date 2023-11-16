@@ -1945,6 +1945,11 @@
   dependencies:
     tslib "^1.7.0"
 
+"@progress/kendo-intl@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-intl/-/kendo-intl-3.1.1.tgz#93b0339d34b7c0205d62d5d752bfe0f1122d986f"
+  integrity sha512-Dv+j4rQTSODq3EMTlzvWMBsDmnbupAgMUFmVG6wbgg29xtvQTYDoKej4m3POazh7BitdlascbP+2bqs/9Xcm3g==
+
 "@progress/kendo-licensing@^1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@progress/kendo-licensing/-/kendo-licensing-1.2.2.tgz#25df2ac4eac7940f7ed64c6c44940285a40bedb6"
@@ -2005,12 +2010,12 @@
     "@progress/kendo-react-popup" "5.5.0"
     prop-types "^15.6.0"
 
-"@progress/kendo-react-intl@^5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-react-intl/-/kendo-react-intl-5.5.0.tgz#4825e4f89447a7bde8d96d9251c7a4cee8f37da8"
-  integrity sha512-5tlvgfAar1WdtzRNXvW5SQmvnLa8atKuyBOIK2/3lCCkdknIXUPX1fgkpKIpvfj4HZKGTW05rFMvjPFJw1s40A==
+"@progress/kendo-react-intl@^5.19.0":
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-intl/-/kendo-react-intl-5.19.0.tgz#cadee5df1ef29727802c212b13646393add54f22"
+  integrity sha512-C+vAkYpXfWdj0ct3zK2ysV2tTOiRaV2Ly0VAGEvHYm0ammFyJSKrLuJQKu9RZMlpCcJ/ugbAutOionJuzPs43A==
   dependencies:
-    "@telerik/kendo-intl" "^2.1.0"
+    "@progress/kendo-intl" "^3.1.1"
     prop-types "^15.6.0"
 
 "@progress/kendo-react-labels@5.5.0":
@@ -2219,11 +2224,6 @@
   integrity sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==
   dependencies:
     defer-to-connect "^1.0.1"
-
-"@telerik/kendo-intl@^2.1.0":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@telerik/kendo-intl/-/kendo-intl-2.3.1.tgz#185ffbdbd1e3e42cfab69bcba7799870877d3dbd"
-  integrity sha512-30iXfS/1Kz3wn0rZLiWzrfJCv/c0Wffr5T42uxjJBTxZQ6XLBmUdfaQ4Jn1Td1W0skZrlP0M3/wNAEYTbxXigQ==
 
 "@tensorflow-models/body-pix@^2.1.0":
   version "2.2.0"
