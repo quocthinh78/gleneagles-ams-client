@@ -14,7 +14,7 @@
     "@progress/kendo-react-dateinputs": "^5.5.0",
     "@progress/kendo-react-dropdowns": "^5.5.0",
     "@progress/kendo-react-intl": "^5.5.0",
-    "@progress/kendo-react-treeview": "^5.5.0",
+    "@progress/kendo-react-treeview": "^5.19.0",
     "@progress/kendo-theme-default": "^5.5.0",
     "@splidejs/react-splide": "^0.7.8",
     "@splidejs/splide": "^4.0.7",

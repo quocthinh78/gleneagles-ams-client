@@ -1945,6 +1945,13 @@
   dependencies:
     tslib "^1.7.0"
 
+"@progress/kendo-draggable-common@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-draggable-common/-/kendo-draggable-common-0.2.3.tgz#b4603d73239a85d13b467f11204db6f54e831c6f"
+  integrity sha512-e1FraFsT7zwevswzZlQYL//K+fzmRUvkr/4emp51dzkARLDtGd95BtPNSoXYRG5xYHeueKBS75hzVwQI6Dm3Dg==
+  dependencies:
+    tslib "^1.7.0"
+
 "@progress/kendo-licensing@^1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@progress/kendo-licensing/-/kendo-licensing-1.2.2.tgz#25df2ac4eac7940f7ed64c6c44940285a40bedb6"
@@ -1973,6 +1980,14 @@
   dependencies:
     "@progress/kendo-react-common" "5.5.0"
     "@progress/kendo-react-popup" "5.5.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-common@5.19.0":
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-common/-/kendo-react-common-5.19.0.tgz#8bcd7b26ec16900c2b3624e77f2d8a0a8ebfe844"
+  integrity sha512-xgneFSVbzK8hmoanYMlYSF6u33zx2dAww3Pj92hmOvrau93qaUcE6cg3RHVXzFtbpItFZiBNdBuxAyg7wLYCnA==
+  dependencies:
+    "@progress/kendo-draggable-common" "^0.2.3"
     prop-types "^15.6.0"
 
 "@progress/kendo-react-common@5.5.0":
@@ -2030,12 +2045,12 @@
     "@progress/kendo-react-common" "5.5.0"
     prop-types "^15.6.0"
 
-"@progress/kendo-react-treeview@^5.5.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@progress/kendo-react-treeview/-/kendo-react-treeview-5.5.0.tgz#8c229fcdf30deb0e22d14c4f2d034643f2d8f069"
-  integrity sha512-KqXHKZHXWBYpEbr/eYJITZz1lHabsZ6exuZcrETqb6inueysjkKII9RHE17hPOb6Wp/RqdgmXdY7wUKGv5q/TQ==
+"@progress/kendo-react-treeview@^5.19.0":
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-treeview/-/kendo-react-treeview-5.19.0.tgz#edbdf8e1a19274b80d92e88e17a78e6a5115fbc1"
+  integrity sha512-S9vnO8PBnuTmB0JkowANTKmmltvACpcU448PALxLnZsFF0ematq7bWJ5ipcRXP+qfZq6g7mb0ifxwN/ICPad0g==
   dependencies:
-    "@progress/kendo-react-common" "5.5.0"
+    "@progress/kendo-react-common" "5.19.0"
     prop-types "^15.6.0"
 
 "@progress/kendo-theme-default@^5.5.0":
