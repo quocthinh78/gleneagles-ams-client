@@ -25,7 +25,7 @@
     "@twilio/video-processors": "^1.0.2",
     "@twilio/video-room-monitor": "^1.0.0",
     "antd": "^4.16.13",
-    "axios": "^0.21.1",
+    "axios": "^1.6.4",
     "classnames": "^2.3.1",
     "clsx": "^1.1.1",
     "d3-timer": "^3.0.1",
