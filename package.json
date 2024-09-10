@@ -51,7 +51,7 @@
     "react-phone-number-input": "^3.1.35",
     "react-redux": "^7.2.4",
     "react-responsive": "^8.2.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.0.0",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
     "react-select": "^4.3.1",
