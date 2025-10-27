@@ -74,7 +74,7 @@
     "timeago-react": "^3.0.2",
     "twilio-video": "^2.18.1",
     "uuid": "^8.3.2",
-    "validator": "^13.6.0",
+    "validator": "^13.15.20",
     "web-vitals": "^1.0.1",
     "xlsx": "^0.17.0"
   },
